@@ -43,7 +43,8 @@ const App = () => {
   const socket = useRef();
 
   useEffect(() => {
-    socket.current = io("http://localhost:8000");
+    // socket.current = io("http://localhost:8000");
+    socket.current = io('https://videochatserver-rott.onrender.com')
 
     socket.current.on("connect", () => {
       socket.current.emit("requestId");

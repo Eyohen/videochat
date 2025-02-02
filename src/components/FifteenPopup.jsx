@@ -75,7 +75,7 @@ const FifteenPopup = ({ onEndMeeting, onProceed }) => {
             margin: 0,
             fontSize: '14px',
           }}>
-            30 seconds have elapsed in this meeting. Would you like to continue or end the meeting?
+            30 minutes have elapsed in this meeting. Would you like to continue or end the meeting?
           </p>
         </div>
 

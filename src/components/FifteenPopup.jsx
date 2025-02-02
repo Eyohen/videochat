@@ -9,6 +9,7 @@ const FifteenPopup = ({ onEndMeeting, onProceed }) => {
   };
 
   const handleProceed = () => {
+    
     setIsOpen(false);
     onProceed?.();
   };
